@@ -1,0 +1,26 @@
+:root {
+	--indochine: #CB7308;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+/* read button */
+.btn-read {
+	background-color: transparent;
+	border-radius: 6px;
+	border: 2px solid var(--indochine);
+	display: inline-block;
+	cursor: pointer;
+	color: var(--indochine);
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 30px;
+	margin: 20px;
+	text-decoration:none;
+	text-transform: uppercase; }
+.btn-read:hover {
+	background-color: var(--indochine);
+	color: white; }
